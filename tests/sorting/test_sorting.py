@@ -18,3 +18,6 @@ def test_sort_by_criteria():
     ]
 
     assert sort_by(fake_jobs, fake_criteria) == expected_jobs
+
+    fake_criteria = 'wrong'
+    assert sort_by(fake_jobs, fake_criteria) == ValueError
