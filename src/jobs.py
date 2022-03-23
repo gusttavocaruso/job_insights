@@ -10,4 +10,4 @@ def read(path):
 
 
 if __name__ == '__main__':
-    read('jobs.csv')
+    print(read('jobs.csv'))
